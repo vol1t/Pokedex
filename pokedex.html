@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./src/css/pokedexStyle.css">
+    <link rel="stylesheet type=" text/css" href="./src/css/menuStyle.css">
+    <link rel="stylesheet" type="text/css" href="./src/css/cardStyle.css">
+    </link>
+    <link rel="icon" type="image/png" href="./src/images/favicon.ico">
+    <title>Pokedex v1</title>
+</head>
+
+<body>
+    <!--Cabeçalho da página-->
+    <header>
+        <div class="principal">
+            <div id="logo">
+                <figure>
+                    <img src="./src/images/logo.png">
+                </figure>
+            </div>
+
+            <!--Menu de Navegação-->
+            <nav id="menu">
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./pokedex.html">Pokedex</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section>
+        <div id="pokedex">
+            <div id="card">
+                <div id="top-card">
+                    <input type="text" id="search" value="Bulbasaur" />
+                    <span id="number">#001</span>
+                </div>
+                <div id="poke-image-placeholder">
+                    <img src="./src/images/1.png" id="pokemon-image" alt="pokemon-image" />
+                </div>
+            </div>
+            <div id="data">
+                <div id="types">
+                    <span style="background-color: rgb(116, 203, 72);" class="type">
+                        Grass
+                    </span>
+                    <span style="background-color: rgb(164,  62, 158);" class="type">
+                        Poison
+                    </span>
+                </div>
+
+                <h4 id="base-stats" style="color: rgb(116, 203, 72);">Base Stats</h4>
+
+                <div id="stats">
+                    <div class="stat-row">
+                        <div class="stat-desc">HP</div>
+                        <div class="stat-number">045</div>
+                        <div class="stat-bar">
+                            <div class="bar-outer">
+                                <div class="bar-inner" style="width: 45%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stat-row">
+                        <div class="stat-desc">ATK</div>
+                        <div class="stat-number">049</div>
+                        <div class="stat-bar">
+                            <div class="bar-outer">
+                                <div class="bar-inner" style="width: 49%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stat-row">
+                        <div class="stat-desc">DEF</div>
+                        <div class="stat-number">049</div>
+                        <div class="stat-bar">
+                            <div class="bar-outer">
+                                <div class="bar-inner" style="width: 49%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stat-row">
+                        <div class="stat-desc">SATK</div>
+                        <div class="stat-number">065</div>
+                        <div class="stat-bar">
+                            <div class="bar-outer">
+                                <div class="bar-inner" style="width: 65%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stat-row">
+                        <div class="stat-desc">SDEF</div>
+                        <div class="stat-number">065</div>
+                        <div class="stat-bar">
+                            <div class="bar-outer">
+                                <div class="bar-inner" style="width: 65%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stat-row">
+                        <div class="stat-desc">SPD</div>
+                        <div class="stat-number">045</div>
+                        <div class="stat-bar">
+                            <div class="bar-outer">
+                                <div class="bar-inner" style="width: 45%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <script src="./src/js/script.js"></script>
+</body>
+
+</html>

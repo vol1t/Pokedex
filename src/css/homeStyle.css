@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    border: 0;
+}
+
+body {
+
+    background: linear-gradient(180deg, #F5DB13 0%, #F2B807 100%);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+
+section {
+    width: 100%;
+    height: inherit;
+}
+
+#PikachuIlustration {
+    height: 680px;
+    width: inherit;
+    float: right;
+}
+
+
+#CentralText {
+    height: 557px;
+    width: 516px;
+    font-size: 1.8em;
+    color: black;
+    justify-content: center;
+    align-items: right;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins';
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.6em;
+    font-style: italic;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    display: flex;
+}
+
+#btn {
+    height: 66px;
+    width: 231px;
+    border-radius: 11px;
+    font-weight: 400;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    background-color: #73D677;
+    text-decoration: none;
+    margin-top: -10%;
+    margin-left: 8.5rem;
+    
+}
+
+#btn a {
+    text-decoration: none;
+}
+
+#btn:hover {
+    background-color: #05ca50dc;
+    color: white;
+    cursor: pointer;
+}
+
+/* Media queries para tornar o layout responsivo */
+
+@media screen and (max-width: 768px) {
+    header {
+        height: auto;
+    }
+
+    #logo {
+        float: none;
+        margin: 10px auto;
+    }
+
+    #menu {
+        float: none;
+        text-align: center;
+    }
+
+    #menu ul li {
+        float: none;
+        display:flex;
+        margin: 5px;
+    }
+
+    #PikachuIlustration {
+        float: none;
+        width: 0%;
+        height: auto;
+    }
+
+    #CentralText {
+        height: 557px;
+        width: 516px;
+        font-size: 1.8em;
+        color: black;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    #CentralText {
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        font-size: 1.4em;
+    }
+
+    #btn {
+        width: 100%;
+    }
+}
