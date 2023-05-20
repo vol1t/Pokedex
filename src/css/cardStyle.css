@@ -150,3 +150,67 @@ section {
 #base-stats {
     transition: color 0.5s ease-in-out;
 }
+
+/* Estilos adicionais para celular */
+
+@media only screen and (max-width: 480px) {
+    #pokedex {
+        width: 90%;
+        height: auto;
+        max-height: 80vh;
+    }
+    
+    #poke-image-placeholder {
+        transform: none;
+    }
+    
+    #pokemon-image {
+        width: 100%;
+        height: auto;
+    }
+    
+    #data {
+        height: auto;
+        padding-top: 3rem;
+    }
+    
+    #stats {
+        width: 90%;
+    }
+    
+    .stat-row {
+        flex-direction: column;
+    }
+    
+    .stat-desc,
+    .stat-number {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .bar-outer {
+        height: 0.2rem;
+    }
+}
+
+/* Estilos adicionais para tablet */
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    #pokedex {
+        width: 28rem;
+        height: 40rem;
+    }
+    
+    #poke-image-placeholder {
+        transform: none;
+    }
+    
+    #pokemon-image {
+        width: 220px;
+        height: 220px;
+    }
+    
+    #data {
+        padding-top: 6.5rem;
+    }
+}

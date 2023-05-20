@@ -81,3 +81,41 @@ article {
     padding-right: 4px;
     font-weight: 700;
 }
+
+/* Estilos adicionais para celular */
+
+@media only screen and (max-width: 768px) {
+    #top-bar {
+        padding-top: 2rem;
+    }
+    
+    .search-input {
+        margin-top: 1rem;
+    }
+    
+    .search {
+        width: 90%;
+        max-width: 500px;
+    }
+    
+    #pkmnTitle {
+        font-size: 1.5em;
+    }
+}
+
+/* Estilos adicionais para tablet */
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    #top-bar {
+        padding-top: 4rem;
+    }
+    
+    .search-input {
+        margin-top: 1.5rem;
+    }
+    
+    .search {
+        width: 80%;
+        max-width: 700px;
+    }
+}

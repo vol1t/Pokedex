@@ -79,68 +79,37 @@ h2 {
     cursor: pointer;
 }
 
-/* Media queries para tornar o layout responsivo */
-
-@media screen and (max-width: 1040px) {
-    .content {
-        width: 100%;
-        height: 100%;
-    }
-    header {
-        height: 100%;
-        align-items: center;
-        justify-content: center;
-        display: flex;
-    }
-
-    #logo {
-        float: none;
-        margin: 10px auto;
-    }
-
-    #menu {
-        float: none;
-        text-align: center;
-    }
-
-    #menu ul li {
-               width: 100%;
-        height: 100%;
-        float: none;
-        display:flex;
-        margin: 5px;
-    }
-
+@media only screen and (max-width: 480px) {
     #PikachuIlustration {
-        float: none;
-        width: 0%;
         height: auto;
+        width: 100%;
+        float: none;
     }
-
+    
     #CentralText {
-        height: 557px;
-        width: 516px;
-        font-size: 1.8em;
-        color: black;
-        justify-content: center;
+        height: auto;
+        width: 100%;
+        font-size: 1.2em;
         align-items: center;
-        flex-direction: column;
+        text-align: center;
+        margin: 2rem 0;
     }
-    #btn{
-        margin-top: -200px;
+    
+    #btn {
+        margin: 1rem auto;
     }
 }
 
+/* Estilos adicionais para tablet */
 
-@media screen and (max-width: 480px) {
+@media only screen and (min-width: 481px) and (max-width: 768px) {
     #CentralText {
-        text-align: center;
-        justify-content: center;
-        display: flex;
+        width: 80%;
         font-size: 1.4em;
+        margin: 2rem auto;
     }
-
+    
     #btn {
-        width: 100%;
+        margin: 1rem auto;
     }
 }
