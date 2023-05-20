@@ -12,4 +12,4 @@
 
 
 ### Projeto publicado e funcionando
-https://vol1t.github.io/Pokedex/pokedex.html
+https://vol1t.github.io/Pokedex/index.html
