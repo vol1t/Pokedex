@@ -1,27 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     color: #000000;
     font-family: 'Poppins', sans-serif;
     border: 0;
+
 }
 
-body{
-    background: linear-gradient(180deg, #FFFFFF 30.32%, #F5F5F5 100%);
+body {
+    background-color: #d6d6d6;
     background-repeat: no-repeat;
     width: 100%;
     height: inherit;
+    background-image: url("../images/background.jpg");
+    background-size: cover;
 }
 
 section {
     width: 100%;
     height: inherit;
+    background-image: url("../images/background.jpg");
+    background-size: cover;
 }
 
-#top-bar{
+article {
+    width: 100%;
+    height: inherit;
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+}
+
+#top-bar {
     color: black;
     justify-content: center;
     align-items: center;
@@ -30,7 +42,7 @@ section {
     padding-top: 5.5rem;
 }
 
-#texto{
+#texto {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-weight: 100;
@@ -40,25 +52,32 @@ section {
     flex-direction: row;
 }
 
-#searchPkmn{
+.search-input {
+    margin-top: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.search {
     width: 1088px;
     height: 53px;
     border-radius: 14px;
-    background-color: #F2F2F2;
-    box-shadow: 3px 2px 5px 2px black;
+    box-shadow: 3px 2px 5px 2px rgb(83, 28, 2);
     text-align: center;
     color: rgb(0, 0, 0);
     text-transform: capitalize;
 }
 
-#searchPkmn::placeholder{
+.search::placeholder {
     color: #212121ab;
     text-align: center;
+    font-size: 00;
 }
 
-#pkmnTitle{
+#pkmnTitle {
     padding-left: 4px;
     padding-right: 4px;
     font-weight: 700;
 }
-
