@@ -9,3 +9,7 @@
 
 ### Pokedex quando são feitas pesquisas
 ![Card pikachu](https://github.com/Vol1t/Pokedex/assets/87790504/b38c97fe-bb91-450b-967a-8207c4b4175e)
+
+
+### Projeto publicado e funcionando
+https://vol1t.github.io/Pokedex/pokedex.html
