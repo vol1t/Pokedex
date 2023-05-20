@@ -63,6 +63,7 @@ article {
 .search {
     width: 1088px;
     height: 53px;
+    font-weight: bold;
     border-radius: 14px;
     box-shadow: 3px 2px 5px 2px rgb(83, 28, 2);
     text-align: center;
@@ -73,13 +74,12 @@ article {
 .search::placeholder {
     color: #212121ab;
     text-align: center;
-    font-size: 00;
+    font-size: 600;
 }
 
 #pkmnTitle {
     padding-left: 4px;
     padding-right: 4px;
-    font-weight: 700;
 }
 
 /* Estilos adicionais para celular */
