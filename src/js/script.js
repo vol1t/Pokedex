@@ -53,8 +53,8 @@ const fetchApi = async (pkmnName) => {
 
 // Evento de mudança no campo de busca
 search.addEventListener('change', async (event) => {
+    event.target.value = event.target.value.toLowerCase();
     const pkmnData = await fetchApi(event.target.value);
-
     // Validação quando o Pokémon não existe
     if (!pkmnData) {
         alert('Pokémon does not exist.');
